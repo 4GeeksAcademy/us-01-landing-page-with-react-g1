@@ -3,12 +3,14 @@ import React from "react";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Jumbotron } from "./Jumbotron";
+import { Nabvar } from "./Nabvar";
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="text-center p-5">
 			<Jumbotron/>
+			<Nabvar/>
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
 			<p>
 				<img src={rigoImage} />
